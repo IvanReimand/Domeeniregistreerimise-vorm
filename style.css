@@ -1,0 +1,340 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #88cfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #bfddf5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.stepspecial{
+    width: 30px;
+    height: 30px;
+    background: #00862d;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.step {
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.step.active {
+    background: #007bff;
+}
+
+.domain-search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #003a77;
+    color: white;
+    cursor: pointer;
+}
+
+.domain-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.domain {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.domain.unavailable {
+    color: red;
+}
+
+.registered {
+    font-size: 12px;
+    color: red;
+}
+
+.additional-service {
+    background: #e0e0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.service-btn {
+    background: #004911;
+    width: 100%;
+}
+
+.continue-btn {
+    background: #003b79;
+    width: 100%;
+    margin-top: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0eef9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.progress div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  padding: 10px 0;
+  background-color: #d6e6f5;
+  border-radius: 20px;
+}
+
+.progress div.active {
+  background-color: #81c784;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  width: 60%;
+}
+
+.form input[type="text"], .form input[type="email"], .form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form label {
+  margin-left: 10px;
+}
+
+.checkbox-group {
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons .back-btn {
+  background-color: #5baaba;
+  color: white;
+}
+
+.buttons .confirm-btn {
+  background-color: #9570ff;
+  color: white;
+}
+
+.order-summary {
+  width: 35%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h3 {
+  margin-bottom: 20px;
+}
+
+.order-summary p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.order-summary .total {
+  font-weight: bold;
+}
+
+.guarantee {
+  margin-top: 20px;
+  text-align: center;
+  color: #5baaba;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0eef9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container2 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .progress2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .progress-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 10px 0;
+    background-color: #a0d1ff;
+    border-radius: 20px;
+  }
+  
+  .progress-div.active2 {
+    background-color: #81c784;
+    color: white;
+  }
+  
+  .form-container2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form2 {
+    width: 60%;
+  }
+  
+  .forminput2 [type="text"], .form input[type="email"], .form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .formlabel2 {
+    margin-left: 10px;
+  }
+  
+  .checkbox-group2 {
+    margin-bottom: 15px;
+  }
+  
+  .buttons2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttonsbutton2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons .back-btn2 {
+    background-color: #5baaba;
+    color: white;
+  }
+  
+  .buttons .confirm-btn2 {
+    background-color: #9570ff;
+    color: white;
+  }
+  
+  .order-summary2 {
+    width: 35%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary .h32  {
+    margin-bottom: 20px;
+  }
+  
+  .order-summary .p2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .order-summary .total2 {
+    font-weight: bold;
+  }
+  
+  .guarantee2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #5baaba;
+  }
