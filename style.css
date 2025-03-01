@@ -338,3 +338,78 @@ body {
     text-align: center;
     color: #5baaba;
   }
+
+///
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6EEF5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .progress3 {
+            background-color: #C4DAEB;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .step3 {
+            display: flex;
+            align-items: center;
+            margin: 0 15px;
+        }
+        .circle3 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .circle.active3 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgb(0, 113, 51);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .container3 {
+            margin: 50px auto;
+            max-width: 600px;
+            background-color: #F0F5FA;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .button3 {
+            display: inline-block;
+            background-color: #002FA7;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #001F7A;
+        }
+
